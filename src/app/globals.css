@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-coral-50: #fff5f0;
+  --color-coral-100: #ffe8df;
+  --color-coral-200: #ffd0c0;
+  --color-coral-300: #ffb09a;
+  --color-coral-400: #ff9070;
+  --color-coral-500: #f4845f;
+  --color-coral-600: #e06a45;
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, "SF Mono", monospace;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #38bdf8 0%, #4ade80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
