@@ -1,9 +1,11 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/coral-creative-site",
-  assetPrefix: "/coral-creative-site/",
+  basePath: isProd ? "/coral-creative-site" : "",
+  assetPrefix: isProd ? "/coral-creative-site/" : "",
   trailingSlash: true,
   images: {
     unoptimized: true,
