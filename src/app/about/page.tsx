@@ -57,7 +57,7 @@ const profileItems = [
   { label: "屋号", value: "Coral Creative" },
   { label: "所在", value: "Japan" },
   { label: "事業内容", value: "iOSアプリ開発 / AI活用 / Webサービス開発" },
-  { label: "連絡先", value: "develop@coral-creative.com" },
+  { label: "連絡先", value: "contact@coral-creative.com" },
 ];
 
 export default function AboutPage() {

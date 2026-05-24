@@ -117,4 +117,4 @@ npx gh-pages -d out
 
 ## 問い合わせ
 
-develop@coral-creative.com
+contact@coral-creative.com

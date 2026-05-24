@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Coral Creative へのお問い合わせ。iOSアプリ開発・AI活用・Webサービス開発のご依頼・ご相談はこちらから。",
 };
 
-const contactEmail = "develop@coral-creative.com";
+const contactEmail = "contact@coral-creative.com";
 
 export default function ContactPage() {
   return (

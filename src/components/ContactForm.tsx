@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const contactEmail = "develop@coral-creative.com";
+const contactEmail = "contact@coral-creative.com";
 
 const inputClass =
   "w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-sky-300 focus:bg-white focus:outline-none focus:ring-2 focus:ring-sky-100 transition-all duration-200 text-sm text-slate-900 placeholder:text-slate-400";
