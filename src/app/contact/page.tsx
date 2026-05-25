@@ -21,13 +21,13 @@ export default function ContactPage() {
             <p className="text-xs font-semibold tracking-[0.2em] text-sky-500 uppercase mb-6">
               Contact
             </p>
-            <h1 className="text-5xl md:text-7xl font-bold text-slate-900 tracking-tight leading-[1.0] mb-8">
-              Let&apos;s talk.
+            <h1 className="text-4xl md:text-6xl font-bold text-slate-900 tracking-tight leading-[1.1] mb-8">
+              お気軽にご相談ください。
             </h1>
-            <p className="text-lg text-slate-500 max-w-md leading-relaxed">
-              開発のご依頼・ご相談など、お気軽にご連絡ください。
-              できる限り迅速にご返信いたします。
-            </p>
+            <div className="text-lg text-slate-500 max-w-md leading-relaxed space-y-3">
+              <p>アプリ開発のご相談や、お仕事のご依頼など、お気軽にご連絡ください。</p>
+              <p>内容を確認のうえ、できるだけ早くご返信いたします。</p>
+            </div>
           </AnimatedSection>
         </div>
       </section>

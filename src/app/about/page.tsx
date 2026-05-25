@@ -72,16 +72,20 @@ export default function AboutPage() {
               About
             </p>
             <h1 className="text-5xl md:text-7xl font-bold text-slate-900 tracking-tight leading-[1.0] mb-8">
-              One developer.
+              一人だからこそ、
               <br />
-              <span className="gradient-text">Endless</span>
+              <span className="gradient-text">細部まで</span>
               <br />
-              possibilities.
+              こだわれる。
             </h1>
-            <p className="text-lg text-slate-500 max-w-xl leading-relaxed">
-              Coral Creative は、iOSアプリ開発・AI活用・Webサービス開発を手がける個人事業です。
-              テクノロジーを通じて、シンプルで美しい体験を届けることを使命としています。
-            </p>
+            <div className="text-lg text-slate-500 max-w-xl leading-relaxed space-y-4">
+              <p>
+                Coral Creative は、個人でiOSアプリ・AI・Webサービス開発を行っているクリエイティブスタジオです。
+              </p>
+              <p>
+                シンプルで使いやすく、長く愛される体験を目指して、企画から開発・公開まで一貫して取り組んでいます。
+              </p>
+            </div>
           </AnimatedSection>
         </div>
       </section>
@@ -95,16 +99,16 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold text-slate-900 mb-5">Coral Creative</h2>
               <div className="space-y-4 text-sm text-slate-500 leading-relaxed">
                 <p>
-                  個人事業主として、iOSアプリ・Webサービスの開発と、
-                  AIを活用したプロダクト設計に取り組んでいます。
+                  SwiftUIを中心としたiOSアプリ開発に加え、AIを活用したプロダクト設計やWebサービス開発にも取り組んでいます。
                 </p>
                 <p>
-                  Apple Developer として iOS エコシステムに深く関わりながら、
-                  最新のAI技術を活用した新しい体験の設計にも積極的に取り組んでいます。
+                  Apple Developerとして、新しい技術を活かした体験づくりを日々追求しています。
                 </p>
                 <p>
-                  「使う人の心に残るものを作る」という信念のもと、
-                  アイデアの発想からリリースまでを一人で一貫して行います。
+                  「使う人にとって、本当に心地よいものを作る。」
+                </p>
+                <p>
+                  その想いを大切にしながら、アイデアの設計から開発・リリースまでを一人で行っています。
                 </p>
               </div>
             </AnimatedSection>
@@ -205,7 +209,7 @@ export default function AboutPage() {
             href="/contact/"
             className="inline-flex items-center gap-2 px-8 py-3.5 bg-slate-900 text-white rounded-full text-sm font-semibold hover:bg-slate-700 transition-all duration-200 hover:scale-105 active:scale-95"
           >
-            Get in Touch
+            お問い合わせ
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
             </svg>
