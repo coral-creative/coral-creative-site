@@ -79,9 +79,9 @@ export default function HomePage() {
               What We Build
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 tracking-tight leading-tight">
-              Crafted for the
+              使いやすく、美しい体験を
               <br />
-              modern user.
+              目指して。
             </h2>
           </AnimatedSection>
 
@@ -154,9 +154,9 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto px-6">
           <AnimatedSection className="text-center">
             <h2 className="text-4xl md:text-6xl font-bold text-slate-900 tracking-tight leading-tight mb-6">
-              Let&apos;s build something
+              アイデアを、
               <br />
-              <span className="gradient-text">great.</span>
+              <span className="gradient-text">形にします。</span>
             </h2>
             <p className="text-slate-500 text-lg mb-12 max-w-sm mx-auto leading-relaxed">
               アイデアをお気軽にシェアください。
@@ -167,7 +167,7 @@ export default function HomePage() {
               href="/contact/"
               className="inline-flex items-center gap-2 px-8 py-4 bg-slate-900 text-white rounded-full text-sm font-semibold hover:bg-slate-700 transition-all duration-200 hover:scale-105 active:scale-95"
             >
-              Get in Touch
+              お問い合わせ
               <svg
                 className="w-4 h-4"
                 fill="none"

@@ -21,9 +21,7 @@ export default function HomeHero() {
         </h1>
 
         <p className="text-lg md:text-xl text-slate-500 max-w-md mx-auto mb-10 leading-relaxed">
-          独立したアプリ開発スタジオ。
-          <br className="hidden sm:block" />
-          iOSアプリ、AI、Webサービスを手掛けます。
+          個人でiOSアプリ・AI・Webサービス開発を行っています。
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-2 mb-12">
@@ -42,13 +40,13 @@ export default function HomeHero() {
             href="/products/"
             className="px-8 py-3.5 bg-slate-900 text-white rounded-full text-sm font-semibold hover:bg-slate-700 transition-all duration-200 hover:scale-105 active:scale-95"
           >
-            See Products
+            プロダクト
           </Link>
           <Link
             href="/contact/"
             className="px-8 py-3.5 bg-white text-slate-700 rounded-full text-sm font-semibold border border-slate-200 hover:border-slate-300 hover:bg-slate-50 transition-all duration-200 hover:scale-105 active:scale-95"
           >
-            Get in Touch
+            お問い合わせ
           </Link>
         </div>
       </div>

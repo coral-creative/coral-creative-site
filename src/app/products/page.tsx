@@ -47,14 +47,14 @@ export default function ProductsPage() {
               Products
             </p>
             <h1 className="text-5xl md:text-7xl font-bold text-slate-900 tracking-tight leading-[1.0] mb-8">
-              Building what
+              本当に欲しいものを、
               <br />
-              <span className="gradient-text">matters.</span>
+              <span className="gradient-text">自分の手で。</span>
             </h1>
-            <p className="text-lg text-slate-500 max-w-xl leading-relaxed">
-              iOSアプリ・AIツール・Webサービスを個人開発しています。
-              すべてのプロダクトは、自分が使いたいものを作るところから始まります。
-            </p>
+            <div className="text-lg text-slate-500 max-w-xl leading-relaxed space-y-4">
+              <p>iOSアプリ・AIツール・Webサービスを個人で開発しています。</p>
+              <p>「こんなのがあったらいいな」と思えるものを、一つひとつ形にしています。</p>
+            </div>
           </AnimatedSection>
         </div>
       </section>
@@ -147,7 +147,7 @@ export default function ProductsPage() {
             href="/contact/"
             className="inline-flex items-center gap-2 px-8 py-3.5 bg-slate-900 text-white rounded-full text-sm font-semibold hover:bg-slate-700 transition-all duration-200 hover:scale-105 active:scale-95"
           >
-            Get in Touch
+            お問い合わせ
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
             </svg>
