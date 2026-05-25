@@ -91,7 +91,7 @@ export default function AboutPage() {
         <div className="max-w-5xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
             <AnimatedSection>
-              <img src="/favicon.svg" alt="Coral Creative" className="w-20 h-20 mb-8" />
+              <img src="/favicon.svg" alt="" className="w-20 h-20 mb-8" />
               <h2 className="text-2xl font-bold text-slate-900 mb-5">Coral Creative</h2>
               <div className="space-y-4 text-sm text-slate-500 leading-relaxed">
                 <p>
