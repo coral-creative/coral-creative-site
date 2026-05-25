@@ -42,9 +42,7 @@ export default function Navigation() {
             className="flex items-center gap-2.5 group"
             aria-label="Coral Creative Home"
           >
-            <div className="w-7 h-7 rounded-lg bg-coral-500 flex items-center justify-center shadow-sm group-hover:bg-coral-600 transition-colors duration-200">
-              <span className="text-white font-bold text-xs tracking-tight">C</span>
-            </div>
+            <img src="/favicon.svg" alt="" className="w-7 h-7" />
             <span className="font-semibold text-slate-900 tracking-tight text-sm">
               Coral Creative
             </span>

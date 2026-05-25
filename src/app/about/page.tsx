@@ -91,9 +91,7 @@ export default function AboutPage() {
         <div className="max-w-5xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
             <AnimatedSection>
-              <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-coral-400 to-coral-600 flex items-center justify-center mb-8 shadow-lg">
-                <span className="text-4xl font-bold text-white">C</span>
-              </div>
+              <img src="/favicon.svg" alt="" className="w-20 h-20 mb-8" />
               <h2 className="text-2xl font-bold text-slate-900 mb-5">Coral Creative</h2>
               <div className="space-y-4 text-sm text-slate-500 leading-relaxed">
                 <p>

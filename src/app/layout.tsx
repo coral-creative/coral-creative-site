@@ -15,15 +15,16 @@ const geistMono = Geist_Mono({
 });
 
 const siteUrl = "https://coral-creative.com";
+const siteDescription =
+  "SwiftUIを中心に、直感的で美しいiOSアプリを設計・開発。AI活用・Webサービス開発も手がける個人開発スタジオ。";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Coral Creative",
+    default: "Coral Creative | iOS・AI・Web開発スタジオ",
     template: "%s | Coral Creative",
   },
-  description:
-    "iOSアプリ開発・AI活用・Webサービス開発を手がける個人開発スタジオ。",
+  description: siteDescription,
   keywords: [
     "iOS",
     "アプリ開発",
@@ -36,14 +37,16 @@ export const metadata: Metadata = {
   authors: [{ name: "Coral Creative" }],
   creator: "Coral Creative",
   publisher: "Coral Creative",
+  alternates: {
+    canonical: siteUrl,
+  },
   openGraph: {
     type: "website",
     locale: "ja_JP",
     url: siteUrl,
     siteName: "Coral Creative",
-    title: "Coral Creative",
-    description:
-      "iOSアプリ開発・AI活用・Webサービス開発を手がける個人開発スタジオ。",
+    title: "Coral Creative | iOS・AI・Web開発スタジオ",
+    description: siteDescription,
     images: [
       {
         url: "/og-image.png",
@@ -55,9 +58,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Coral Creative",
-    description:
-      "iOSアプリ開発・AI活用・Webサービス開発を手がける個人開発スタジオ。",
+    title: "Coral Creative | iOS・AI・Web開発スタジオ",
+    description: siteDescription,
     images: ["/og-image.png"],
   },
   icons: {
@@ -65,7 +67,6 @@ export const metadata: Metadata = {
       { url: "/favicon.svg", type: "image/svg+xml" },
       { url: "/favicon.ico" },
     ],
-    apple: "/apple-touch-icon.png",
   },
   robots: {
     index: true,

@@ -18,9 +18,7 @@ export default function Footer() {
               href="/"
               className="inline-flex items-center gap-2 justify-center md:justify-start mb-3"
             >
-              <div className="w-6 h-6 rounded-md bg-coral-500 flex items-center justify-center">
-                <span className="text-white font-bold text-[10px]">C</span>
-              </div>
+              <img src="/favicon.svg" alt="" className="w-6 h-6" />
               <span className="font-semibold text-slate-900 text-sm">Coral Creative</span>
             </Link>
             <p className="text-xs text-slate-400 max-w-xs leading-relaxed">
