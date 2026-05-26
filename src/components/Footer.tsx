@@ -5,7 +5,7 @@ const footerLinks = [
   { href: "/about/", label: "About" },
   { href: "/products/", label: "Products" },
   { href: "/contact/", label: "Contact" },
-  { href: "/privacy/", label: "プライバシーポリシー" },
+  { href: "/privacy/", label: "Privacy Policy" },
 ];
 
 export default function Footer() {
